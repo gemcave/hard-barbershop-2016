@@ -1,115 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Барбершоп Бородинский</title>
   <meta charset="utf-8" />
+  <title>Барбершоп Бородинский</title>
+  <meta name="viewport" content="width=device-width,initial-">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/outlines.css">
 </head>
 <body>
-<header class="page-header">
-  <h1 class="visually-hidden">Барбершоп Бородиинский - истинно мужская классика</h1>
-  <div class="page-header__logo">
-    <img src="img/logo.svg" width="370" height="153" alt="Барбершоп Бородиинский">
-  </div>
-  <nav class="main-nav main-nav--closed main-nav--nojs">
-    <button class="main-nav--closed__toggle" type="button">Открыть меню</button>
-    <div class="main-nav__wrapper">
-      <ul class="main-nav__items">
-        <li><a href="">Главная</a></li>
-        <li><a href="">Наши работы</a></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="main-nav__user-items">
-        <li class="main-nav__user-item"><a href="" class="main-nav__user-login" title="Войти">Вход</a></li>
-      </ul>
+  <header class="page-header">
+    <div class="page-header__logo">
     </div>
-  </nav>
-</header>
-<section class="stats">
-  <header class="stats__header">
-    <h2 class="stats__title visually-hidden">Статистика Барбершопа</h2>
-    <b class="stats__slogan">Стрижка у нас<br> это выгодно!</b>
-    <p class="stats__intro">Мужская стрижка требует точного подхода.Обратимся к стаистика:</p>
-    <small class="stats__legend stats__legend--top"><sup>*</sup> - приведенные данные ложь</small>
   </header>
-  <table class="stats__items">
-    <tr>
-      <td class="stats__value">1 500<sup>*</sup></td>
-      <td class="stats__field">рублей<br> вложений</td>
-    </tr>
-  </table>
-  <small class="stats__legend stats__legend-bottom"><sup>*</sup> - приведенные данные ложь</small>
-</section>
-<section class="advantages">
-  <div class="advantages__wrapper slider">
-    <h2 class="advantages__title visually-hidden">Наши преимущества</h2>
-    <input class="slider_input" type="radio" name="advantages" id="advantages-input-1" checked>
-    <input class="slider_input" type="radio" name="advantages" id="advantages-input-2">
-    <input class="slider_iпnput" type="radio" name="advantages" id="advantages-input-3">
-    <ul class="advantages__items">
-      <li class="advantages__item advantages__item--fast slider__item">
-        <h3 class="advantages__item-title">Быстро</h3>
-        <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы счастливы обладатель стильной</p>
-      </li>
-    </ul>
-    <div class="advantages__toggles slider__toggles">
-      <label for="advantages-input-1" class="slider__toggle">1</label>
-      <label for="advantages-input-2" class="slider__toggle">2</label>
-      <label for="advantages-input-3" class="slider__toggle">3</label>
-    </div>
-  </div>
-</section>
-<section class="news">
-  <div class="news__wrapper">
-    <h2 class="news__title">Новости и акции</h2>
-    <ul class="news__items">
-      <li class="news__item">
-        <time class="news__date" datetime="2015-09-29"><b>29</b> сент</time>
-        <p>Нам наконец-то завезли Егермействер! Теперь вы можете пропустить стаканчик во время стрижки.</p>
-      </li>
-    </ul>
-    <a href="" class="news__to-all btn">Показать все</a>
-  </div>
-</section>
-<section class="reviews">
-  <div class="review__wrapper slider">
-    <h2 class="reviews__title">Отзывы о нас</h2>
-    <a href="" class="reviews__write btn">Оставить свой</a>
-    <input type="radio" class="slider__input" name="reviews" id="reviews-input-1" checked>
-  </div>
-  <div class="reviews__items">
-    <blockquote class="reviews__item slider__item">
-      <div class="reviews__author-foto">
-        <img src="img/pic-travis.jpg" width="50" height="33" alt="Фото Трэвиса Баркера">
-      </div>
-      <cite class="reviews__author-name">Трэвис Баркер</cite>
-      <p>Спасибо за лысину! Былы проездом в Москве , заскочил побриться чтобы было видно новую</p>
-    </blockquote>
-
-    <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-    <button class="reviews__next" type="button">Следующий отзыв</button>
-  </div>
-  <div class="reviews__toggles slider__toggles"></div>
-</section>
-<footer class="page-footer">
-  <div class="page-footer__wrapper">
-    <p class="page-footer__contacts">
-      <b>Барбершоп Бородинский</b><br>
-      г.Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
-      <a href="tel:+78125556666"><span class="page-footer__contacts-hidden">Тел.:</span> +7 (812)</a>
-    </p>
-    <p class="page-footer__social">
-      <span class="social-links">
-        <a href="social-link social-link--vk" href="https://www.vk.com">Мы в Вконтакте</a>
-        <a href="social-link social-link--fb" href="https://www.facebook.com">Мы в Фейсбуке</a>
-        <a href="social-link social-link--in" href="https://www.instagram.com">Мы в Инстаграмме</a>
-      </span>
-    </p>
-    <p class="page-footer__copyright">
-      Разработано:
-      <a href="" class="btn page-footer__copyright-link" href="http://www.cheesycat.kz">Рекламная мастерская "Сырный Кот"</a>
-    </p>
-  </div>
-</footer>
 </body>
 </html>
